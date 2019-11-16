@@ -6,10 +6,11 @@ public class Main {
     public static double km2Landmiles(double km) {
         double meilen=km*0.6214;
         return meilen;
+        //alternativ: return km * 0.6213 ohne Zwischenvariable
     }
 
     public static double Landmiles2km(double meilen) {
-        double km=meilen*1.609;
+        double km=meilen/0.6214;
         return km;
     }
 
